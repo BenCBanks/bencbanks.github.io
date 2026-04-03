@@ -11,6 +11,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
 
 gem "jekyll-theme-hydejack", "~> 9.1"
+gem "jekyll-remote-theme"
 
 # If you are part of the ["Customers" team](https://github.com/orgs/hydecorp/teams/pro-customers), 
 # you can fetch the theme from a private repository. 
