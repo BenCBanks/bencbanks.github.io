@@ -1,5 +1,10 @@
 // Add custom CSS rules here.
 
+// Hide "Powered by Hydejack" footer attribution
+p:has(> small > a[href="https://hydejack.com/"]) {
+  display: none;
+}
+
 // Hide heading anchor links (the # that appears after headings)
 .permalink {
   display: none;
