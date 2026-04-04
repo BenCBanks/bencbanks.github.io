@@ -7,10 +7,10 @@ basics:
   email:    Ben@TheBanks.io
   website:  https://bencbanks.github.io
   summary:  >
-    Payments and digital professional with experience in [your summary here].
+    Payments and digital professional with experience in fintech and digital products.
   location:
-    city:       [Your City]
-    region:     [Your State/Region]
+    city:       "Your City"
+    region:     "Your State/Region"
     countryCode: US
   profiles:
     - network:   LinkedIn
