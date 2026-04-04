@@ -1,6 +1,22 @@
 // Add custom CSS rules here.
 
 // Hide heading anchor links (the # that appears after headings)
-.heading-anchor {
+.permalink {
   display: none;
+}
+
+// Download button styling
+a.btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background-color: var(--accent-color, rgb(79,177,186));
+  color: #fff !important;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+  &:hover {
+    opacity: 0.85;
+  }
 }
