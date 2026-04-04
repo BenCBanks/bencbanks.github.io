@@ -14,4 +14,4 @@ I'm Ben Banks — a payments and digital professional based in [Your Location].
 
 I spend my time working at the intersection of financial technology, digital products, and whatever interesting problem is in front of me. Outside of work, I enjoy tinkering with software, writing, and exploring new ideas.
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/benjamin-banks) or reach out at [Ben@TheBanks.io](mailto:Ben@TheBanks.io).
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/benjamin-banks) or reach out at [Ben@theBanks.io](mailto:Ben@theBanks.io).

@@ -1,5 +1,10 @@
 // Add custom CSS rules here.
 
+// Hide older/newer pagination when it has no active links
+nav.pagination {
+  display: none;
+}
+
 // Hide "Powered by Hydejack" footer attribution
 p:has(> small > a[href="https://hydejack.com/"]) {
   display: none;
