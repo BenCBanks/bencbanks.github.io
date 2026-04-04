@@ -1,0 +1,51 @@
+# Resume data in JSON Resume format (https://jsonresume.org/schema/)
+# Fill in your details below.
+
+basics:
+  name:     Ben Banks
+  label:    Payments & Digital Professional
+  email:    Ben@TheBanks.io
+  website:  https://bencbanks.github.io
+  summary:  >
+    Payments and digital professional with experience in [your summary here].
+  location:
+    city:       [Your City]
+    region:     [Your State/Region]
+    countryCode: US
+  profiles:
+    - network:   LinkedIn
+      username:  benjamin-banks
+      url:       https://www.linkedin.com/in/benjamin-banks
+
+work:
+  - company:    Company Name
+    position:   Your Title
+    website:    https://example.com
+    startDate:  "2022-01-01"
+    # endDate:  "2024-01-01"   # leave blank if current role
+    summary:    >
+      Brief description of your role and responsibilities.
+    highlights:
+      - Key achievement or responsibility
+      - Key achievement or responsibility
+
+education:
+  - institution: University Name
+    area:         Your Field of Study
+    studyType:    Bachelor of Science
+    startDate:    "2014-01-01"
+    endDate:      "2018-01-01"
+
+skills:
+  - name:     Payments
+    keywords: [Card Networks, ACH, Payment Processing, Risk]
+  - name:     Digital Products
+    keywords: [Product Management, Fintech, APIs]
+
+# languages:
+#   - language:    English
+#     fluency:     Native
+
+# interests:
+#   - name:        Tinkering
+#     keywords:    [Software, Hardware, Open Source]
