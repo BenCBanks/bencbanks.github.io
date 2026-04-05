@@ -7,13 +7,6 @@ hide_description: true
 ---
 
 <a href="/assets/img/Ben_Banks_Resume.pdf" class="btn btn-primary" target="_blank" style="font-size: 0.8em;">Download Resume</a>
----
-
-
-
-
-
-
 
 ## Ben Banks
 **Payments & Digital Professional**  
