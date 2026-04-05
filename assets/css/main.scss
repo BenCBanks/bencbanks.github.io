@@ -353,10 +353,7 @@ img { max-width: 100%; height: auto; display: block; }
   height: 200px;
   max-width: none;
   border-radius: 50%;
-  background-color: var(--tag-bg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 80%;
+  object-fit: cover;
   border: 3px solid var(--border);
   flex-shrink: 0;
 }

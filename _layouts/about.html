@@ -14,7 +14,7 @@ layout: default
   </div>
 
   {% if page.image %}
-  <div class="about-photo" role="img" aria-label="Ben Banks" style="background-image: url('{{ page.image | relative_url }}')"></div>
+  <img src="{{ page.image | relative_url }}" alt="Ben Banks" class="about-photo">
   {% endif %}
 </div>
 
