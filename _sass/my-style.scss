@@ -73,6 +73,21 @@
   }
 }
 
+// LinkedIn icon in sidebar
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.85;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  svg {
+    display: block;
+  }
+}
+
 // Download button
 a.btn {
   display: inline-block;
