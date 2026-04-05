@@ -20,3 +20,19 @@ p:has(> small > a[href="https://hydejack.com/"]) {
   display: none;
 }
 
+// Download button styling
+a.btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background-color: rgb(148,147,146);
+  color: #fff !important;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
