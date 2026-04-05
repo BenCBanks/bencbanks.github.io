@@ -20,6 +20,11 @@ p:has(> small > a[href="https://hydejack.com/"]) {
   display: none;
 }
 
+// Top navbar background color
+#_navbar {
+  background-color: rgb(148,147,146);
+}
+
 // Download button styling
 a.btn {
   display: inline-block;

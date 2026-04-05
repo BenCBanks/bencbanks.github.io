@@ -87,7 +87,7 @@ remote_theme: hydecorp/hydejack@v9
 
 # Sidebar image and theme color of the site.
 accent_image:
-  background: rgb(242,240,239)
+  background: rgb(148,147,146)
   overlay: false
 accent_color:          rgb(148,147,146)
 
@@ -228,7 +228,7 @@ hydejack:
     always:            false
 
     # Set to `true` to use the dark theme based on visitors' preference (OS setting).
-    dynamic:           true
+    dynamic:           false
 
     # Set to `true` to allow visitors to switch between light and dark mode.
     icon:              true
