@@ -8,7 +8,7 @@ layout: default
 </header>
 
 {% assign tag_slug = page.slug | default: page.title | downcase %}
-{% assign filtered = site.posts | where_exp: "post", "post.tags contains tag_slug" %}
+{% assign filtered = site.posts | where_exp: "post", "post.tags contains page.slug" %}
 
 <ul class="project-list">
   {% for post in filtered %}
@@ -17,6 +17,7 @@ layout: default
       {% if post.type %}
       <span class="type-badge type-badge--{{ post.type }}">{{ post.type }}</span>
       {% endif %}
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
     </div>
     <a href="{{ post.url | relative_url }}" class="project-title">{{ post.title }}</a>
     {% if post.description %}
