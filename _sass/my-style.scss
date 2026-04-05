@@ -20,23 +20,23 @@ p:has(> small > a[href="https://hydejack.com/"]) {
   display: none;
 }
 
-// Top navbar - white background with black text
+// Top navbar - white background with default text color
 #_navbar {
   background-color: #fff;
-  color: #000;
+  color: #333;
 
   a {
-    color: #000 !important;
+    color: #333 !important;
   }
 }
 
-// Sidebar - white background with black text
+// Sidebar - white background with default text color
 #_sidebar {
   background-color: #fff;
-  color: #000;
+  color: #333;
 
   a {
-    color: #000 !important;
+    color: #333 !important;
   }
 }
 
