@@ -20,7 +20,7 @@ p:has(> small > a[href="https://hydejack.com/"]) {
   display: none;
 }
 
-// Top navbar - white background with default text color
+// Top navbar - match off-white background
 #_navbar {
   background-color: rgb(242,240,239);
   color: #333;
@@ -28,6 +28,10 @@ p:has(> small > a[href="https://hydejack.com/"]) {
   a {
     color: #333 !important;
   }
+}
+
+.nav-btn-bar {
+  background-color: rgb(242,240,239) !important;
 }
 
 // Sidebar - white background with default text color
