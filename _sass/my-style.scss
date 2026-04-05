@@ -1,5 +1,10 @@
 // Add custom CSS rules here.
 
+// Main content background color
+body {
+  background-color: rgb(242,240,239);
+}
+
 // Hide older/newer pagination when it has no active links
 nav.pagination {
   display: none;
@@ -19,7 +24,7 @@ p:has(> small > a[href="https://hydejack.com/"]) {
 a.btn {
   display: inline-block;
   padding: 0.5rem 1.25rem;
-  background-color: var(--accent-color, rgb(79,177,186));
+  background-color: var(--accent-color, rgb(148,147,146));
   color: #fff !important;
   border-radius: 0.25rem;
   text-decoration: none;
