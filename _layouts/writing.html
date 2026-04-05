@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% if site.featured_tags.size > 0 %}
+<nav class="writing-tags" role="navigation" aria-label="Filter by topic">
+  {% for tag in site.featured_tags %}
+    <a href="{{ tag.url | relative_url }}" class="writing-tag">{{ tag.title }}</a>
+  {% endfor %}
+</nav>
+{% endif %}
+
+<ul class="writing-list">
+{% assign posts = site.posts %}
+{% for post in posts %}
+  <li class="writing-item">
+    <div class="writing-meta">
+      {% if post.type %}<span class="writing-type">{{ post.type }}</span>{% endif %}
+    </div>
+    <a href="{{ post.url | relative_url }}" class="writing-title flip-title">{{ post.title }}</a>
+    {% if post.description %}<p class="writing-description">{{ post.description }}</p>{% endif %}
+  </li>
+{% endfor %}
+</ul>

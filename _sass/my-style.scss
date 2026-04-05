@@ -1,5 +1,78 @@
 // Custom styles for bencbanks.github.io
 
+// Writing index list
+.writing-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+}
+
+.writing-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+
+  &:first-child {
+    border-top: 1px solid var(--border-color);
+  }
+}
+
+.writing-meta {
+  margin-bottom: 0.25rem;
+}
+
+.writing-type {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+.writing-title {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--body-color);
+  text-decoration: none;
+  margin-bottom: 0.35rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.writing-description {
+  margin: 0;
+  color: var(--gray-text);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+// Topic tag filters
+.writing-tags {
+  margin: 1.5rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.writing-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.65rem;
+  border: 1px solid var(--border-color);
+  border-radius: 2rem;
+  color: var(--gray-text);
+  text-decoration: none;
+
+  &:hover {
+    border-color: var(--gray);
+    color: var(--body-color);
+  }
+}
+
 // Download button
 a.btn {
   display: inline-block;
