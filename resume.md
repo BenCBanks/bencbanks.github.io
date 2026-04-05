@@ -6,8 +6,7 @@ description: >
 hide_description: true
 ---
 
-<a href="/assets/img/Ben_Banks_Resume.pdf" class="btn btn-primary" download>Download PDF</a>
-
+<a href="/assets/img/Ben_Banks_Resume.pdf" class="btn btn-primary" target="_blank">Download Resume</a>
 ---
 
 ## Ben Banks
