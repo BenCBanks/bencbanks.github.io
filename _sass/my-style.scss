@@ -20,9 +20,24 @@ p:has(> small > a[href="https://hydejack.com/"]) {
   display: none;
 }
 
-// Top navbar background color
+// Top navbar - white background with black text
 #_navbar {
-  background-color: rgb(148,147,146);
+  background-color: #fff;
+  color: #000;
+
+  a {
+    color: #000 !important;
+  }
+}
+
+// Sidebar - white background with black text
+#_sidebar {
+  background-color: #fff;
+  color: #000;
+
+  a {
+    color: #000 !important;
+  }
 }
 
 // Download button styling
