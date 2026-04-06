@@ -12,6 +12,16 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
   {% seo %}
+  {% if jekyll.environment == "production" %}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBXQJD05EF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZBXQJD05EF');
+  </script>
+  {% endif %}
 </head>
 <body>
 
