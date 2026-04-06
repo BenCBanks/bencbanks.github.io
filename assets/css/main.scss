@@ -302,7 +302,8 @@ img { max-width: 100%; height: auto; display: block; }
   padding: 0.15em 0.35em;
   border-radius: 3px;
 }
-.post-content pre {
+.post-content pre,
+.post-content .highlight pre {
   background: #1e1e1e;
   color: #d4d4d4;
   padding: 1.25rem;
@@ -310,7 +311,26 @@ img { max-width: 100%; height: auto; display: block; }
   overflow-x: auto;
   margin-bottom: 1.25rem;
 }
-.post-content pre code { background: none; color: inherit; padding: 0; font-size: 0.875rem; }
+.post-content pre code,
+.post-content .highlight pre code { background: none; color: inherit; padding: 0; font-size: 0.875rem; }
+
+/* Rouge syntax highlighting tokens (VS Code Dark+ palette) */
+.highlight .c,  .highlight .c1, .highlight .cm { color: #6a9955; } /* comments — green */
+.highlight .k,  .highlight .kd, .highlight .kn,
+.highlight .kp, .highlight .kr, .highlight .kt { color: #569cd6; } /* keywords — blue */
+.highlight .s,  .highlight .s1, .highlight .s2,
+.highlight .sb, .highlight .sc, .highlight .sd,
+.highlight .se, .highlight .sh, .highlight .si,
+.highlight .sx, .highlight .sr, .highlight .ss { color: #ce9178; } /* strings — orange */
+.highlight .mi, .highlight .mf, .highlight .mh,
+.highlight .mo, .highlight .il, .highlight .m  { color: #b5cea8; } /* numbers — light green */
+.highlight .nf, .highlight .fm               { color: #dcdcaa; } /* function names — yellow */
+.highlight .nc, .highlight .nn               { color: #4ec9b0; } /* class names — teal */
+.highlight .nb                               { color: #9cdcfe; } /* builtins — light blue */
+.highlight .o,  .highlight .ow              { color: #d4d4d4; } /* operators — default */
+.highlight .p                               { color: #d4d4d4; } /* punctuation — default */
+.highlight .na, .highlight .nd, .highlight .ni,
+.highlight .ne, .highlight .no             { color: #9cdcfe; } /* other names — light blue */
 
 /* ===================================================
    Tag list page
