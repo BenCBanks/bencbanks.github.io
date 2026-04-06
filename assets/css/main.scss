@@ -347,24 +347,20 @@ img { max-width: 100%; height: auto; display: block; }
    =================================================== */
 
 .about-intro {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  align-items: start;
   margin-bottom: 2rem;
-
-  &::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
 }
 
 .about-photo {
-  float: right;
   width: 200px;
   height: 200px;
   max-width: none;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--border);
-  margin: 0 0 1.5rem 2rem;
 }
 
 .about-bio h1 {
@@ -562,13 +558,12 @@ img { max-width: 100%; height: auto; display: block; }
   .site-main  { padding: 2rem 1rem 4rem; }
   .post-title { font-size: 1.4rem; }
 
-  .about-photo {
-    float: none;
-    display: block;
-    width: 130px;
-    height: 130px;
-    margin: 0 auto 1.5rem;
+  .about-intro {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1.25rem;
   }
+  .about-photo { width: 130px; height: 130px; }
 
   .timeline-item { grid-template-columns: 1fr; gap: 0.15rem; }
   .timeline-year { padding-top: 0; }
