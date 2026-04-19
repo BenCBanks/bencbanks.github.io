@@ -3,7 +3,7 @@ layout: post
 title: How I Used AI to Build a Real Estate Acquisition Pipeline
 type: Essay
 description: How iterating with AI turned an idea — "find subdividable lots in Charlotte" — into a pipeline to identify investment candidates, including a ranked candidate list, and a process for off-market owner outreach.
-tags: [meta]
+tags: AI, Investing
 ---
 Recently a creative and entrepreneurially minded friend of mine told me about how he was able to purchase a single family house on a lot, split it into 3 parcels — keeping the house as a rental and then build two new homes on the newly formed vacant lots. *"Genius, I want to try to do this too"* I thought — and there it started.
 
@@ -133,7 +133,7 @@ The ranking was based on key features of each parcel using the following scoring
   </div>
   <div class="total-row">
     <div><div class="total-label">priority score</div><div class="total-sub">Sum of all components. Sort descending to surface the best candidates first.</div></div>
-    <div class="total-score">max ~19</div>
+    <div class="total-score">max ~23</div>
   </div>
 </div>
 
