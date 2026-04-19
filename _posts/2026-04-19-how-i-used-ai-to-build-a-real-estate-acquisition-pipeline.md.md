@@ -15,7 +15,7 @@ This post is about how AI leveled the playing field for me (and all of us) and h
 
 ## The initial hypothesis
 
-A bit of history: Charlotte's UDO — the Unified Development Ordinance that took effect June 1, 2023 — fundamentally changed what you can build in residential zones. Before it, 84% of Charlotte's residential land was zoned single-family only. After it, duplexes and triplexes became a buildable right in almost every zone across the city. In addition, zoning requirements changed and some areas saw minimum parcel size shrink. These changes created a massive shift in land value and opportunity.
+A bit of history: Charlotte's UDO — the Unified Development Ordinance that took effect June 1, 2023 — fundamentally changed what you can build in residential zones. Before it, 84% of Charlotte's residential land was zoned single-family only. After it, duplexes and triplexes became a buildable right in almost every zone across the city. These changes, among others, created a shift in land value and opportunity.
 
 My idea was simple (and inspired by my friend): there are parcels in Charlotte that look like ordinary single-family lots on the surface but are actually large enough to split, with the excess land now more valuable under the new rules. If I could find those parcels systematically — I had an edge.
 
