@@ -1,7 +1,6 @@
 ---
 layout: list
-title: AI
-slug: AI
-description: 
+title: Investing
+slug: investing
 sitemap: true
 ---
