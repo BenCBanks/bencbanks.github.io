@@ -10,8 +10,7 @@ I recently signed up for my first marathon — the Marine Corps Marathon in Wash
 The problem was I knew my running fitness had been slipping for years. What I didn't know was how much — until I looked at my own data.
 
 ---
-
-
+<br>
 "We'll be back on Monday" — that's what most of us thought in March 2020 as we left the office for what turned out to be the last time for over a year, and in some cases, forever.
 
 In the early days of COVID, working from home felt like a gift. Suddenly I had time — to read, to cook, to pick up new habits, to run. More distance and faster than I ever had in my life.
@@ -38,8 +37,7 @@ Perhaps the most humbling number: 2025 was my slowest year on record. My average
 ![Chart description](/assets/img/How COVID Changed My Running/Average_4_Mile Pace.png)
 
 ---
-
-
+<br>
 But that's not where the story ends.
 
 **Look at 2026 in each of those charts and something is changing:**
