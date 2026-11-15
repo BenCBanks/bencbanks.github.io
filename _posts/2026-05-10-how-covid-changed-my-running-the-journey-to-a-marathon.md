@@ -2,6 +2,9 @@
 layout: post
 title: COVID Changed My Running + The Journey to a Marathon
 type: Essay
+topic: Data analysis
+preview: /assets/img/How COVID Changed My Running/Overall_Monthly Distance_Runs.png
+preview_alt: Chart of monthly running distance over time
 description: COVID changed all of us, in more than one way. One of mine was how my fitness and running took a backseat for many years. Now, I am digging into my data as I prepare for first marathon.
 tags: [Data Analysis]
 ---
@@ -17,24 +20,24 @@ In the early days of COVID, working from home felt like a gift. Suddenly I had t
 
 On a monthly basis I was hitting over 150 miles, close to 40 miles a week.
 
-![Chart description](/assets/img/How COVID Changed My Running/Overall_Monthly Distance_Runs.png)
+![Monthly running distance, rising during 2020 and falling in later years](/assets/img/How COVID Changed My Running/Overall_Monthly Distance_Runs.png)
 
 As the pandemic wore on though, the motivation quietly eroded. The lack of community set in, the noise of isolation grew louder, and it became easy to put things off. I had more time than ever — I could always just run tomorrow. It became too much of a good thing, and my running paid the price.
 
 Not only was my overall mileage dropping, but the runs themselves were getting shorter. By July 2022, only 7% of my runs were more than 4 miles — meanwhile, just a couple of years earlier almost every run had been longer than that.
 
-![Chart description](/assets/img/How COVID Changed My Running/Percentage_Of_Runs_By_Distance.png)
+![Share of runs longer than four miles by month](/assets/img/How COVID Changed My Running/Percentage_Of_Runs_By_Distance.png)
 
 Running longer distances is proven to build both speed and endurance. By cutting my runs short for years, I was building neither — and the data makes the cost clear.
 
 **Between 2020 and 2025, my average pace per mile slowed by roughly 60 seconds** — a slow, quiet attrition over five years.
 
-![Chart description](/assets/img/How COVID Changed My Running/Pace_Distribution_Comparison.png)
+![Comparison of running pace distributions by year](/assets/img/How COVID Changed My Running/Pace_Distribution_Comparison.png)
 
 
 Perhaps the most humbling number: 2025 was my slowest year on record. My average pace for runs over 4 miles exceeded 8 minutes per mile for the first time.
 
-![Chart description](/assets/img/How COVID Changed My Running/Average_4_Mile Pace.png)
+![Average pace for runs of four miles or longer by year](/assets/img/How COVID Changed My Running/Average_4_Mile Pace.png)
 
 ---
 <br>

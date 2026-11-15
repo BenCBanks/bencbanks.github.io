@@ -1,43 +1,14 @@
 ---
 layout: page
-title: Resume
-description: >
-  Resume of Ben Banks — payments and digital professional.
-hide_description: true
+title: Résumé
+description: Résumé of Ben Banks.
+permalink: /resume/
 ---
 
-<a href="/assets/img/Ben_Banks_Resume.pdf" class="btn-download" target="_blank" rel="noopener noreferrer">Download Resume</a>
+<header class="page-header">
+  <p class="eyebrow">Background</p>
+  <h1>Résumé<span class="heading-dot">.</span></h1>
+  <p>Download my résumé, or see the short career overview on the <a href="/">About page</a>.</p>
+</header>
 
-## Ben Banks
-**Payments & Digital Professional**  
-[Ben@theBanks.io](mailto:Ben@theBanks.io) · [LinkedIn](https://www.linkedin.com/in/benjamin-banks)
-
----
-
-## Summary
-
-Payments and digital professional with experience in fintech and digital products.
-
----
-
-## Experience
-
-**Job Title** · Company Name  
-*Jan 2022 – Present*
-
-- Key achievement or responsibility
-- Key achievement or responsibility
-
----
-
-## Education
-
-**Bachelor of Science, Your Field of Study**  
-University Name · *2014 – 2018*
-
----
-
-## Skills
-
-**Payments** — Card Networks, ACH, Payment Processing, Risk  
-**Digital Products** — Product Management, Fintech, APIs
+<a class="button button-primary" href="/assets/img/Ben_Bank_Resume.pdf" target="_blank" rel="noopener noreferrer">Download résumé PDF <span aria-hidden="true">↗</span></a>

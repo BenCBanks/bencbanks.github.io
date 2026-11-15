@@ -3,7 +3,9 @@ layout: about
 title: About
 description: About Ben Banks — payments professional, digital enthusiast, and tinkerer.
 image: /assets/img/other/2025 Profile Picture_Medium.jpeg
-resume: /assets/img/Ben_Banks_Resume.pdf
+resume: /assets/img/Ben_Bank_Resume.pdf
+beyond: >-
+  Outside of work, I enjoy tinkering with home automation and software, running a few miles each day, and finding creative ways to travel with my wife using points. I’m also the proud owner of a (slightly monstrous) Dachshund.
 timeline:
   - years: "2022–Now"
     role: "Senior Product Manager | Payments"
@@ -19,10 +21,6 @@ timeline:
     org: "First Citizens Bank"
 ---
 
-I'm Ben Banks—a digital and payments professional based in the Queen City (Charlotte, NC).
+I’m a senior product manager focused on payments and digital experiences, based in Charlotte, NC.
 
-I'm passionate about identifying opportunities at the intersection of digital, finance, and people—grounded in a deep understanding of the "why" and validated through data.
-
-Outside of work, I enjoy tinkering with home automation and software, running a few miles each day, and finding creative ways to travel with my wife using points. I'm also the proud owner of a (slightly monstrous) Dachshund.
-
-Feel free to connect on [LinkedIn](https://www.linkedin.com/in/benjamin-banks) or reach out at [Benjamincbanks@gmail.com](mailto:Benjamincbanks@gmail.com).
+I’m passionate about identifying opportunities at the intersection of digital, finance, and people—grounded in a deep understanding of the “why” and validated through data.

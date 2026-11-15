@@ -1,36 +1,41 @@
 ---
 layout: default
 ---
-<div class="about-intro">
-  {% if page.image %}
-  <img src="{{ page.image | relative_url }}" alt="Ben Banks" class="about-photo">
-  {% endif %}
-
-  <div class="about-bio">
-    <h1>Ben Banks</h1>
-    {{ content }}
-
-    <div class="about-actions">
-      <a href="{{ page.resume | default: '/assets/img/Ben_Banks_Resume.pdf' }}" class="btn-download" target="_blank" rel="noopener noreferrer">
-        Download Resume
-      </a>
+<section class="home-hero" aria-labelledby="home-title">
+  <div class="home-hero-copy">
+    <p class="eyebrow">Digital <span aria-hidden="true">·</span> Payments <span aria-hidden="true">·</span> Product</p>
+    <h1 id="home-title">Ben Banks<span class="heading-dot">.</span></h1>
+    <div class="intro-copy">{{ content }}</div>
+    <div class="hero-actions">
+      <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Explore my work <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">↗</span></a>
     </div>
   </div>
-</div>
+  {% if page.image %}
+  <div class="portrait-frame"><img src="{{ page.image | relative_url }}" alt="Portrait of Ben Banks" class="about-photo" width="300" height="360"></div>
+  {% endif %}
+</section>
+
+<section class="home-section" aria-labelledby="selected-work-heading">
+  <div class="section-heading"><div><p class="eyebrow">01 / The work</p><h2 id="selected-work-heading">Selected work</h2></div><a class="text-link" href="{{ '/projects/' | relative_url }}">All projects <span aria-hidden="true">↗</span></a></div>
+  <div class="featured-grid">
+    {% for post in site.posts limit:2 %}
+      {% include project-card.html post=post featured=true %}
+    {% endfor %}
+  </div>
+</section>
 
 {% if page.timeline %}
-<div class="timeline">
-  <p class="timeline-heading">Experience</p>
-  <ul class="timeline-list">
+<section class="home-section background-section" aria-labelledby="background-heading">
+  <div class="section-heading"><div><p class="eyebrow">02 / The path</p><h2 id="background-heading">Background</h2></div><a class="text-link" href="{{ page.resume | relative_url }}" target="_blank" rel="noopener noreferrer">Résumé PDF <span aria-hidden="true">↗</span></a></div>
+  <ol class="timeline-list">
     {% for item in page.timeline %}
-    <li class="timeline-item">
-      <span class="timeline-year">{{ item.years }}</span>
-      <div>
-        <div class="timeline-role">{{ item.role }}</div>
-        <div class="timeline-org">{{ item.org }}</div>
-      </div>
-    </li>
+    <li class="timeline-item"><span class="timeline-year">{{ item.years }}</span><div><h3 class="timeline-role">{{ item.role }}</h3><p class="timeline-org">{{ item.org }}</p></div></li>
     {% endfor %}
-  </ul>
-</div>
+  </ol>
+</section>
+{% endif %}
+
+{% if page.beyond %}
+<section class="home-section beyond-section" aria-labelledby="beyond-heading"><p class="eyebrow">03 / Beyond work</p><h2 id="beyond-heading">Beyond work</h2><p>{{ page.beyond }}</p></section>
 {% endif %}
