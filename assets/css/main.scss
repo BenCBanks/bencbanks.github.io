@@ -97,6 +97,9 @@ h1, h2, h3 { line-height: 1.15; }
 .post-date { color: var(--muted); font-size: 13px; }
 .project-card-bottom .text-link { font-size: 14px; }
 .project-card-link:hover .text-link { text-decoration: underline; }
+.project-card-text-only .project-card-link { border-top: 1px solid var(--rule); padding-top: 26px; }
+.project-card-text-only .project-card-copy { padding-top: 0; }
+.project-card-text-only h3 { max-width: 680px; }
 
 .timeline-list { margin: 0; padding: 0; list-style: none; }
 .timeline-item { display: grid; grid-template-columns: 180px 1fr; gap: 20px; border-top: 1px solid var(--rule); padding: 23px 0; }
@@ -115,6 +118,7 @@ h1, h2, h3 { line-height: 1.15; }
 .project-rows .project-card-link { display: grid; grid-template-columns: minmax(0, 44%) minmax(0, 1fr); gap: 42px; align-items: center; }
 .project-rows .project-card-copy { padding: 0; }
 .project-rows .project-card h3 { font-size: 32px; }
+.project-rows .project-card-text-only .project-card-link { display: block; max-width: 780px; border-top: 0; padding-top: 0; }
 
 .contact-header { max-width: 640px; padding-bottom: 32px; }
 .site-main-contact { padding-bottom: 80px; }
@@ -122,7 +126,8 @@ h1, h2, h3 { line-height: 1.15; }
 .contact-links { max-width: 640px; border-top: 1px solid var(--rule); }
 .contact-row { display: block; padding: 24px 0; border-bottom: 1px solid var(--rule); text-decoration: none; }
 .contact-row-label { display: block; color: var(--muted); font-size: 14px; margin-bottom: 8px; }
-.contact-row-destination { color: var(--forest); display: inline-block; font-size: 20px; font-weight: 600; line-height: 1.4; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; overflow-wrap: anywhere; }
+.contact-row-destination { color: var(--forest); display: inline-flex; align-items: center; gap: 10px; font-size: 20px; font-weight: 600; line-height: 1.4; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; overflow-wrap: anywhere; }
+.contact-row-destination svg { display: block; flex: 0 0 20px; }
 .contact-row:hover .contact-row-destination { text-decoration-thickness: 2px; }
 
 .article-page { max-width: 960px; margin: 0 auto; padding-top: 58px; }

@@ -1,8 +1,10 @@
-<article class="project-card{% if include.featured %} project-card-featured{% endif %}">
+<article class="project-card{% if include.featured %} project-card-featured{% endif %}{% unless include.post.preview %} project-card-text-only{% endunless %}">
   <a class="project-card-link" href="{{ include.post.url | relative_url }}">
+    {% if include.post.preview %}
     <div class="project-image-canvas">
-      {% if include.post.preview %}<img src="{{ include.post.preview | relative_url }}" alt="{{ include.post.preview_alt | escape }}" loading="lazy">{% endif %}
+      <img src="{{ include.post.preview | relative_url }}" alt="{{ include.post.preview_alt | escape }}" loading="lazy">
     </div>
+    {% endif %}
     <div class="project-card-copy">
       <p class="project-kicker">{{ include.post.topic | default: include.post.type }} <span aria-hidden="true">/</span> {{ include.post.type }}</p>
       <h3>{{ include.post.title }}</h3>
