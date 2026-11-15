@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: How I Used AI to Build a Real Estate Acquisition Pipeline
 type: Essay
 topic: AI experiment

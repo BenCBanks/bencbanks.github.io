@@ -1,20 +1,13 @@
-# Hydejack Starter Kit
+# BenCBanks.com
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+Ben Banks's personal website. GitHub Pages builds it from the `master` branch with Jekyll.
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+## Write or update a post
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+Use [Pages CMS](https://app.pagescms.org/) and choose `BenCBanks/bencbanks.github.io`. The [plain-language publishing guide](.github/PUBLISHING.md) covers drafting in Google Docs, adding an image, saving an unpublished draft, and publishing it. You do not need to edit Markdown, YAML, HTML, or Git commands to publish a post.
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
+The editor reads [.pages.yml](.pages.yml). Its GitHub App must be installed for this repository before the editor can be used.
 
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+## Site source
+
+Articles are in `_posts/`; layouts are in `_layouts/`; styles are in `assets/css/main.scss`. The existing GitHub Actions workflow builds and deploys changes to `master`. The custom domain is `bencbanks.com`.

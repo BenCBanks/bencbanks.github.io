@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: COVID Changed My Running + The Journey to a Marathon
 type: Essay
 topic: Data analysis

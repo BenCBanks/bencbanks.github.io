@@ -1,0 +1,64 @@
+media:
+  - name: images
+    label: Site images
+    input: assets/img
+    output: /assets/img
+    categories: [image]
+    rename: safe
+
+content:
+  - name: posts
+    label: Blog posts
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{title}.md"
+    exclude: ["*.svg"]
+    operations:
+      rename: false
+      delete: false
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Short summary
+        type: text
+        required: true
+        description: One or two sentences shown on the Projects page and in search results.
+      - name: type
+        label: Format
+        type: select
+        default: Essay
+        options:
+          values: [Essay, Note, Project]
+      - name: topic
+        label: Topic
+        type: string
+        description: A short label, such as Payments, Product, Data analysis, or AI experiment.
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: preview
+        label: Project image (optional)
+        type: image
+        options:
+          media: images
+      - name: preview_alt
+        label: Image description
+        type: string
+        description: Describe the image for people using a screen reader.
+      - name: published
+        label: Publish on the website
+        type: boolean
+        default: false
+        description: Leave this off while drafting. Turn it on and save when the post is ready.
+      - name: body
+        label: Post
+        type: rich-text
+        options:
+          format: markdown
+          switcher: true
+          media: images
