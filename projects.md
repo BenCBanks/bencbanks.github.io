@@ -1,5 +1,5 @@
 ---
 layout: projects
 title: Projects
-description: Essays, analysis, and opinions on payments, fintech, and digital — by Ben Banks.
+description: Experiments, analysis, and things I've built — from data and AI to the questions that catch my attention.
 ---

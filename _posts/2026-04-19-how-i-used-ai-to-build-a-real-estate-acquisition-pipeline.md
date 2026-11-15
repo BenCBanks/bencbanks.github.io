@@ -2,6 +2,9 @@
 layout: post
 title: How I Used AI to Build a Real Estate Acquisition Pipeline
 type: Essay
+topic: AI experiment
+preview: /assets/img/frontage_buffer_problem.svg
+preview_alt: Diagram comparing parcel frontage measurements
 description: How iterating with AI turned an idea — "find subdividable lots in Charlotte" — into a pipeline to identify investment candidates, including a ranked candidate list, and a process for off-market owner outreach.
 tags: [ai, investing]
 ---

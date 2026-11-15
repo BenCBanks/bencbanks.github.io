@@ -1,28 +1,10 @@
 ---
 layout: default
 ---
-<header class="tag-header">
-  <span class="tag-label">Topic</span>
-  <h1>{{ page.title }}</h1>
-  <a href="{{ '/projects/' | relative_url }}" class="tag-back">← All projects</a>
-</header>
-
-{% assign tag_slug = page.slug | default: page.title | downcase %}
+<header class="page-header"><p class="eyebrow">Topic</p><h1>{{ page.title }}<span class="heading-dot">.</span></h1><a class="text-link" href="{{ '/projects/' | relative_url }}">← All projects</a></header>
 {% assign filtered = site.posts | where_exp: "post", "post.tags contains page.slug" %}
-
-<ul class="project-list">
+<div class="project-rows">
   {% for post in filtered %}
-  <li class="project-item">
-    <div class="project-meta">
-      {% if post.type %}
-      <span class="type-badge type-badge--{{ post.type }}">{{ post.type }}</span>
-      {% endif %}
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </div>
-    <a href="{{ post.url | relative_url }}" class="project-title">{{ post.title }}</a>
-    {% if post.description %}
-    <p class="project-description">{{ post.description }}</p>
-    {% endif %}
-  </li>
+    {% include project-card.html post=post %}
   {% endfor %}
-</ul>
+</div>

@@ -1,32 +1,9 @@
 ---
 layout: default
 ---
-<div class="projects-header">
-  <h1>Projects</h1>
-  <p>Essays, analysis, and opinions on payments, fintech, and digital.</p>
-</div>
-
-{% if site.featured_tags.size > 0 %}
-<nav class="project-filters" aria-label="Filter by topic">
-  {% for tag in site.featured_tags %}
-  <a href="{{ tag.url | relative_url }}" class="filter-tag">{{ tag.title }}</a>
-  {% endfor %}
-</nav>
-{% endif %}
-
-<ul class="project-list">
+<header class="page-header"><p class="eyebrow">Work &amp; writing</p><h1>Projects<span class="heading-dot">.</span></h1><p>{{ page.description }}</p></header>
+<div class="project-rows">
   {% for post in site.posts %}
-  <li class="project-item">
-    <div class="project-meta">
-      {% if post.type %}
-      <span class="type-badge type-badge--{{ post.type }}">{{ post.type }}</span>
-      {% endif %}
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </div>
-    <a href="{{ post.url | relative_url }}" class="project-title">{{ post.title }}</a>
-    {% if post.description %}
-    <p class="project-description">{{ post.description }}</p>
-    {% endif %}
-  </li>
+    {% include project-card.html post=post %}
   {% endfor %}
-</ul>
+</div>

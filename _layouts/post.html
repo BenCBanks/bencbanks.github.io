@@ -1,23 +1,13 @@
 ---
 layout: default
 ---
-<article>
-  <a href="{{ '/' | relative_url }}" class="post-back">← Projects</a>
-
+<article class="article-page">
+  <a href="{{ '/projects/' | relative_url }}" class="post-back">← All projects</a>
   <header class="post-header">
-    <div class="project-meta">
-      {% if page.type %}
-      <span class="type-badge type-badge--{{ page.type }}">{{ page.type }}</span>
-      {% endif %}
-      <span class="post-date">{{ page.date | date: "%B %-d, %Y" }}</span>
-    </div>
+    <div class="project-meta"><span>{{ page.topic | default: page.type }} / {{ page.type }}</span><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time></div>
     <h1 class="post-title">{{ page.title }}</h1>
-    {% if page.description %}
-    <p class="post-description">{{ page.description }}</p>
-    {% endif %}
+    {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
+  <div class="post-content">{{ content }}</div>
+  <footer class="article-footer"><p class="eyebrow">Keep exploring</p><a class="text-link" href="{{ '/projects/' | relative_url }}">See all projects <span aria-hidden="true">↗</span></a></footer>
 </article>
